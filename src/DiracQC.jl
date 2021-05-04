@@ -1,4 +1,4 @@
-module Dirac
+module DiracQC
 
 import Automa
 import Automa.RegExp: @re_str

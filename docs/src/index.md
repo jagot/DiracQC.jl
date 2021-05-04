@@ -1,12 +1,12 @@
 ```@meta
-CurrentModule = Dirac
+CurrentModule = DiracQC
 ```
 
-# Dirac
+# DiracQC
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [Dirac]
+Modules = [DiracQC]
 ```

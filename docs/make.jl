@@ -1,14 +1,14 @@
-using Dirac
+using DiracQC
 using Documenter
 
 makedocs(;
-    modules=[Dirac],
+    modules=[DiracQC],
     authors="Stefanos Carlström <stefanos.carlstrom@gmail.com> and contributors",
-    repo="https://github.com/jagot/Dirac.jl/blob/{commit}{path}#L{line}",
-    sitename="Dirac.jl",
+    repo="https://github.com/jagot/DiracQC.jl/blob/{commit}{path}#L{line}",
+    sitename="DiracQC.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://jagot.github.io/Dirac.jl",
+        canonical="https://jagot.github.io/DiracQC.jl",
         assets=String[],
     ),
     pages=[
@@ -17,5 +17,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/jagot/Dirac.jl",
+    repo="github.com/jagot/DiracQC.jl",
 )

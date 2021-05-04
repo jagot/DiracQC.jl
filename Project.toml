@@ -1,4 +1,4 @@
-name = "Dirac"
+name = "DiracQC"
 uuid = "d4fa9432-11f5-44ce-8432-8d0129311b1e"
 authors = ["Stefanos Carlström <stefanos.carlstrom@gmail.com> and contributors"]
 version = "0.1.0"
@@ -10,6 +10,9 @@ Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 [compat]
+Automa = "0.8"
+DataFrames = "0.21"
+Formatting = "0.4"
 julia = "1.5"
 
 [extras]

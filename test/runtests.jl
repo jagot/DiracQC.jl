@@ -1,6 +1,6 @@
-using Dirac
+using DiracQC
 using Test
 
-@testset "Dirac.jl" begin
+@testset "DiracQC.jl" begin
     # Write your tests here.
 end
